@@ -49,14 +49,14 @@ def generateImage(keyword):
         attr = attr[1:] # remove image path
         attr = list(filter(None, attr)) # get rid of empty elements
         
-        attributes_img.append(attr) 
+        attributes_img.append(attr)
         img_path.append(attr[0])
         
     max_possibility = np.max(attributes_img[:][index])
     # return image or None
     if max_possibility == 1:
         img_index = np.argmax(attributes_img[:][index])
-        return image = img_path[img_index]
+        return img_path[img_index]
     else:
         return None
 
