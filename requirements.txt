@@ -1,0 +1,5 @@
+tqdm
+colorama
+regex
+python-Levenshtein
+requests

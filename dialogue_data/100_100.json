@@ -1,0 +1,367 @@
+[
+ {
+  "speaker": "user", 
+  "type": "greeting", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Good Morning"
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "greeting", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Hello, is there anything i can help you with today?"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "I would like to shop for some brogue which is from mft couture brand ."
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "answer", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Sure. let me just quickly scan through my catalogue of items"
+  }
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "false nlg": "", 
+   "false images": [
+    "http://images.abofcdn.com/catalog/images/2015/FILAS16FWAWSP9ECHO50/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9620409/Look_Large.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Nw7pFSAxL.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9904750/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/FILAS16FWAWSP9ECHO22/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/PUMAS16FWAWSP9501960/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9520403/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9211603/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9211608/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9211622/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9520409/Look_Large.jpg"
+   ], 
+   "nlg": null, 
+   "images": [
+    "http://static1.jassets.com/p/MFT-Couture-Black-Brogue-Lifestyle-Shoes-1478-7588522-2-pdp_slider_m.jpg", 
+    "http://static1.jassets.com/p/MFT-Couture-Brown-Brogue-Lifestyle-Shoes-6726-7688522-2-pdp_slider_m.jpg", 
+    "http://static1.jassets.com/p/MFT-Couture-Black-Derby-Brogue-Lifestyle-Shoes-8038-1798522-2-pdp_slider_m.jpg", 
+    "http://static1.jassets.com/p/MFT-Couture-White-Derby-Brogue-Lifestyle-Shoes-9290-3998522-2-pdp_slider_m.jpg"
+   ]
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "answer", 
+  "utterance": {
+   "images": [], 
+   "false images": [], 
+   "nlg": "About the 2nd image, look effortlessly stylish wearing these brown coloured casual shoes from the house of mft couture."
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "show_similar_to", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Show me something similar to the 2nd image but in a different type"
+  }, 
+  "question-subtype": "show_similar_to_n_in_attribute_complement_value"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": [
+    "http://ecx.images-amazon.com/images/I/41E5T%2B%2BOk0L.jpg", 
+    "http://ecx.images-amazon.com/images/I/41HYXbZRgtL.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/KNDBS16FWCWCF961A109/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/KNDBS16FWCWCF9960A70/Look_Large.jpg", 
+    "http://static2.jassets.com/p/Femme-Brogue-Silver-Sandals-9636-7701171-2-pdp_slider_m.jpg"
+   ], 
+   "false images": null, 
+   "false nlg": "Sorry could not find anything similar", 
+   "nlg": "The similar looking ones are"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "go_with", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Will skirt pair well with any of these?"
+  }, 
+  "question-subtype": "ask_if_synset_will_go_with_any"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "Yes", 
+   "nlg": "Yes"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "repeat-question", 
+  "question-type": "go_with", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "What can you say about the footwear?"
+  }, 
+  "question-subtype": "ask_if_synset_will_go_with_any"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "Yes", 
+   "nlg": "Yes"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "ask_attribute", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "What is the color in the 1st and 3rd images?"
+  }, 
+  "question-subtype": "ask_attribute_in_ns"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "The color of the brogues is black in the 3rd image; soft in the 1st image", 
+   "nlg": "The color of the brogues is black in the 3rd image; soft in the 1st image"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "show_orientation", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Show me more images of the 3rd product from some different orientations"
+  }, 
+  "question-subtype": "show_different_orientation_of_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": [
+    "http://images.abofcdn.com/catalog/images/2015/KNDBS16FWCWCF961A109/Front_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/KNDBS16FWCWCF961A109/Right_Large.jpg"
+   ], 
+   "false images": [
+    "http://images.abofcdn.com/catalog/images/2015/KNDBS16FWCWCF9960A70/Front_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/KNDBS16FWCWCF9960A70/Right_Large.jpg"
+   ], 
+   "false nlg": "Image from the front and right orientations respectively", 
+   "nlg": "Image from the front and right viewpoints respectively"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "show_orientation", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Can you list images of the 2nd result from all orientations?"
+  }, 
+  "question-subtype": "show_all_orientations_of_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": [
+    "http://ecx.images-amazon.com/images/I/41%2BPWG8ip3L.jpg", 
+    "http://ecx.images-amazon.com/images/I/41aajlisM2L.jpg", 
+    "http://ecx.images-amazon.com/images/I/41r8J9pae5L.jpg"
+   ], 
+   "false images": [
+    "http://ecx.images-amazon.com/images/I/419PyQJbtbL.jpg", 
+    "http://ecx.images-amazon.com/images/I/31stjeG-ldL.jpg"
+   ], 
+   "false nlg": "Image from the front and back orientations respectively", 
+   "nlg": "Image from the front,back and left point of views respectively"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "repeat-question", 
+  "question-type": "show_orientation", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "What about for the 4th image"
+  }, 
+  "question-subtype": "show_all_orientations_of_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": [
+    "http://images.abofcdn.com/catalog/images/2015/KNDBS16FWCWCF9960A70/Front_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/KNDBS16FWCWCF9960A70/Right_Large.jpg"
+   ], 
+   "false images": [
+    "http://images.abofcdn.com/catalog/images/2015/KNDBS16FWCWCF961A109/Front_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/KNDBS16FWCWCF961A109/Right_Large.jpg"
+   ], 
+   "false nlg": "Image from the front and right orientations respectively", 
+   "nlg": "Image from the front and right viewpoints respectively"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "like_n_show_result", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "I like the brand in the 1st one but not the tip. Can you show me some more"
+  }, 
+  "question-subtype": "like_attribute_in_n_do_not_like_attribute_show_more"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "false nlg": "", 
+   "false images": [
+    "http://images.abofcdn.com/catalog/images/2015/FILAS16FWAWSP9ECHO50/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9620409/Look_Large.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Nw7pFSAxL.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9904750/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/FILAS16FWAWSP9ECHO22/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/PUMAS16FWAWSP9501960/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9520403/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9211603/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9211608/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9211622/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9520409/Look_Large.jpg"
+   ], 
+   "nlg": null, 
+   "images": [
+    "http://ecx.images-amazon.com/images/I/41VLvIhZpzL.jpg"
+   ]
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "go_with", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "What do you feel will pair with brogues constituted of synthetic material in the 1st one?"
+  }, 
+  "question-subtype": "ask_what_will_go_with_synset_attribute_in_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "It can go well with world style footwear", 
+   "nlg": "It can go well with world style footwear"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "like_n_show_result", 
+  "utterance": {
+   "images": [
+    "http://static1.jassets.com/p/MFT-Couture-Black-Brogue-Lifestyle-Shoes-1478-7588522-2-pdp_slider_m.jpg"
+   ], 
+   "false nlg": null, 
+   "nlg": "I like the 1st image . Show me something like it but in material as in this image"
+  }, 
+  "question-subtype": "like_n_show_in_attribute_as_in_custom_image"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "false nlg": "", 
+   "false images": [
+    "https://images-na.ssl-images-amazon.com/images/I/41Nw7pFSAxL.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9211608/Look_Large.jpg"
+   ], 
+   "nlg": "Sorry I couldnt find anything in lace but would you like something in other types", 
+   "images": []
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "sort_results", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Sort these by best seller ranking"
+  }, 
+  "question-subtype": "sort_by_bestSellerRanking"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "Sorry i do not have the best seller ranking information for these", 
+   "nlg": "Sorry i do not have the best seller ranking information for these"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "exit-message", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "This was great, i guess i am done"
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "exit-message", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Sure Bye. Glad i could help"
+  }
+ }
+]

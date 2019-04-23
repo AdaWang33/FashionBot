@@ -1,0 +1,317 @@
+[
+ {
+  "speaker": "user", 
+  "type": "greeting", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Good Morning"
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "greeting", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Hello please tell me, anything i can help you with today?"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "I intend to look at your collection natural type tip ballerina having natural shape ."
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "answer", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Surely. ill just make a quick search through my catalog of products"
+  }
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "false nlg": "", 
+   "false images": [], 
+   "nlg": null, 
+   "images": [
+    "http://ecx.images-amazon.com/images/I/41N6c2Pc9OL.jpg", 
+    "http://ecx.images-amazon.com/images/I/51Xy1zJrP0L.jpg", 
+    "http://ecx.images-amazon.com/images/I/41vPsrdcJ0L.jpg", 
+    "http://ecx.images-amazon.com/images/I/51tmRecQ4rL.jpg", 
+    "http://ecx.images-amazon.com/images/I/411W%2Br0Z6SL.jpg"
+   ]
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "show_similar_to", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Show me something similar to the 2nd image"
+  }, 
+  "question-subtype": "show_similar_to_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": [
+    "http://ecx.images-amazon.com/images/I/51xVfDapUvL.jpg", 
+    "http://ecx.images-amazon.com/images/I/519hrZhO1GL.jpg", 
+    "http://ecx.images-amazon.com/images/I/51T-HIGAN8L.jpg", 
+    "http://ecx.images-amazon.com/images/I/514hutA4u1L.jpg", 
+    "http://ecx.images-amazon.com/images/I/512s%2BnK5vkL.jpg", 
+    "http://ecx.images-amazon.com/images/I/51A1N5KqCiL.jpg"
+   ], 
+   "false images": null, 
+   "false nlg": "Sorry could not find anything similar", 
+   "nlg": "The similar looking ones are"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "do_not_like_earlier_show_result", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "I do not like these. Show me in print as in the 1st image from what you had previously shown me in ballerinas"
+  }, 
+  "question-subtype": "do_not_like_show_in_attribute_as_in_n_earlier"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "false nlg": "", 
+   "false images": [
+    "http://images.abofcdn.com/catalog/images/2015/FILAS16FWAWSP9ECHO50/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9620409/Look_Large.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Nw7pFSAxL.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9904750/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/FILAS16FWAWSP9ECHO22/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/PUMAS16FWAWSP9501960/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9520403/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9211603/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9211608/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9211622/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9520409/Look_Large.jpg"
+   ], 
+   "nlg": null, 
+   "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/41HHXA7oIeL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41OFDZYgOQL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41FyBTKBdCL.jpg", 
+    "http://ecx.images-amazon.com/images/I/411Iu4iTbQL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41bxdDa6FZL.jpg"
+   ]
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "answer", 
+  "utterance": {
+   "images": [], 
+   "false images": [], 
+   "nlg": "What you can see in the 1st one, women's minnetonka, liberty strappy braided thong sandals these summer sandals will be your new favorites!"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "do_not_like_n_show_result", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "I dont like the type in the 2nd image. Can you show me some more"
+  }, 
+  "question-subtype": "do_not_like_attribute_in_n_show_more"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "false nlg": "", 
+   "false images": [
+    "http://images.abofcdn.com/catalog/images/2015/FILAS16FWAWSP9ECHO50/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9620409/Look_Large.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Nw7pFSAxL.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9904750/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/FILAS16FWAWSP9ECHO22/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/PUMAS16FWAWSP9501960/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9520403/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9211603/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9211608/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9211622/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9520409/Look_Large.jpg"
+   ], 
+   "nlg": null, 
+   "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/41g32dCF0KL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31sRGEl-G-L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41uQn-LsO-L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41tlPQw%2BBWL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Z9hCITWDL.jpg"
+   ]
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "answer", 
+  "utterance": {
+   "images": [], 
+   "false images": [], 
+   "nlg": "About the 2nd image, these simple, comfy, classic cross leather strap slide sandals are a must-have for your spring/summer wardrobe. About the first one, patent-leather less is more with the slender-strapped sienna sandals from michael michael kors. And what you see in the 4th image, always trendy! these can be worn as casual or evening shoes to dress up with any outfit."
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "show_similar_to", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Show me something similar to the 4th image"
+  }, 
+  "question-subtype": "show_similar_to_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/41YE3QNBfuL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41uFdPMNlFL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31ih2ruECgL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41NKCk0GLkL.jpg"
+   ], 
+   "false images": null, 
+   "false nlg": "Sorry could not find anything similar", 
+   "nlg": "The similar looking ones are"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "do_not_like_earlier_show_result", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "I do not like these. Show me in style as in the 2nd image from what you had previously shown me in ballerinas"
+  }, 
+  "question-subtype": "do_not_like_show_in_attribute_as_in_n_earlier"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "false nlg": "", 
+   "false images": [
+    "http://images.abofcdn.com/catalog/images/2015/FILAS16FWAWSP9ECHO50/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9620409/Look_Large.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Nw7pFSAxL.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9904750/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/FILAS16FWAWSP9ECHO22/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/PUMAS16FWAWSP9501960/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9520403/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9211603/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9211608/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9211622/Look_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/POWES16FWAWSP9520409/Look_Large.jpg"
+   ], 
+   "nlg": null, 
+   "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/41ZbyfZSrRL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41dyaiYx3AL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Y491aj3yL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41%2Bn1RMtw0L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/516I0Z7VdDL.jpg"
+   ]
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "answer", 
+  "utterance": {
+   "images": [], 
+   "false images": [], 
+   "nlg": "What you can see in the 4th item, brighten your look with the aerosoles magician."
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "like_n_show_result", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "The 2nd ballerinas looks catchy. Can I see something like it but in satin type upper material type"
+  }, 
+  "question-subtype": "like_n_show_in_attribute_complement_value"
+ }, 
+ {
+  "speaker": "system", 
+  "type": "answer", 
+  "utterance": {
+   "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/41lnoz7CpML.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41TCpXAf70L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41iu7UbSyQL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51bxh55G9cL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51zIkiRPHOL.jpg"
+   ], 
+   "false nlg": null, 
+   "nlg": null
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "sort_results", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Sort these by price"
+  }, 
+  "question-subtype": "sort_by_price"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "Sorry i do not have the price information for these", 
+   "nlg": "Sorry i do not have the price information for these"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "exit-message", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Thanks this was helpful, i dont think i want to see any more"
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "exit-message", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Sure, would be glad if you can provide a feedback on your experience"
+  }
+ }
+]

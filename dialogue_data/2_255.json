@@ -1,0 +1,536 @@
+[
+ {
+  "speaker": "user", 
+  "type": "greeting", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Hi"
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "greeting", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Hello please tell me, anything i can help you with today?"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "I am very much keen on buying ankle boot whose color is great that would suit me ."
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "question", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "May i know your sex?"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "male"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "user-info", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "I am 39 years of age."
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "answer", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Ok. This helpful"
+  }
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "false nlg": "", 
+   "false images": [], 
+   "nlg": null, 
+   "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/41-m1nrR%2BQL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51rhBJRJYBL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41-tk8AEP%2BL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41FXUghKnGL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41LS-rgGi2L.jpg"
+   ]
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "answer", 
+  "utterance": {
+   "images": [], 
+   "false images": [], 
+   "nlg": "See the first item, this is very popular design, we believe you will love it very much! In the second image, the mask series basketball shoes applies beijing opera types of facial makeup elements to the design. And what you see in the 4th item, hi there,we promise all the customized shoes are made with high quality, and we're aim to make you every customer completely satisfied with the whole exprience."
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "show_similar_to", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Show me something similar to the 5th image but in a different type"
+  }, 
+  "question-subtype": "show_similar_to_n_in_attribute_complement_value"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/41aNZzO%2BFHL.jpg"
+   ], 
+   "false images": null, 
+   "false nlg": "Sorry could not find anything similar", 
+   "nlg": "The similar looking ones are"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "do_not_like_n_show_result", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "I dont like the toe in the 1st image. Can you show me some more"
+  }, 
+  "question-subtype": "do_not_like_attribute_in_n_show_more"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "false nlg": "", 
+   "false images": [
+    "https://images-na.ssl-images-amazon.com/images/I/41UfZKpWVWL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41TqQFPkfqL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Oaq05mWDL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41LVvFwBVVL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41NS5jAF3TL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41WD4sfeo9L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31st5DfabeL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41duFnfyApL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41YtlXyHr7L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41SITYW5ctL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/3160HI1IZLL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41y-ORK3zvL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Q7gYCUpVL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51xScKvH8yL.jpg"
+   ], 
+   "nlg": null, 
+   "images": [
+    "http://ecx.images-amazon.com/images/I/41aecBFZEOL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41eChcWD8vL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41FEMg4BcDL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41SBwwxgH-L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41SBwwxgH-L.jpg"
+   ]
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "answer", 
+  "utterance": {
+   "images": [], 
+   "false images": [], 
+   "nlg": "About the second item, look effortlessly stylish wearing these black coloured casual shoes from the house of dls. And what you can see in the third item, essence is one of the most innovative footwear brand ."
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "do_not_like_n_show_result", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "I dont like the style in the 3rd image. Can you show me some more"
+  }, 
+  "question-subtype": "do_not_like_attribute_in_n_show_more"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "false nlg": "", 
+   "false images": [
+    "https://images-na.ssl-images-amazon.com/images/I/41UfZKpWVWL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41TqQFPkfqL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Oaq05mWDL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41LVvFwBVVL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41NS5jAF3TL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41WD4sfeo9L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31st5DfabeL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41duFnfyApL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41YtlXyHr7L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41SITYW5ctL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/3160HI1IZLL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41y-ORK3zvL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Q7gYCUpVL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51xScKvH8yL.jpg"
+   ], 
+   "nlg": null, 
+   "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/51nmWTwYMWL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/510FevRmsvL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41KhyTPeJeL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51Lj%2BO34MAL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Gh2nAA3IL.jpg"
+   ]
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "answer", 
+  "utterance": {
+   "images": [], 
+   "false images": [], 
+   "nlg": "The fifth one, mezlan belucci black boots genuine alligator skin have carved a niche with their hand-stitched perfection. To describe the fourth image, the sheepskin upper is both durable and warm as it encases your foot and ankle. And in the 1st item, combine elegance and style with the timberland newmarket ankle boot."
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "suited_for", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Do you think that high tops will be suited for regular wash?"
+  }, 
+  "question-subtype": "ask_if_synset_suited_for"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "Yes", 
+   "nlg": "Yes"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "repeat-question", 
+  "question-type": "suited_for", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "And what about professional "
+  }, 
+  "question-subtype": "ask_if_synset_suited_for"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "No", 
+   "nlg": "No"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "ask_attribute", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "\u2018see the 3rd image, what do you think is the sole material there?\u2019"
+  }, 
+  "question-subtype": "ask_attribute_in_synset_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "The sole material in 3rd image is leather and lace", 
+   "nlg": "The sole material in 3rd image is leather and lace"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "repeat-question", 
+  "question-type": "ask_attribute", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "And what about in the 5th image"
+  }, 
+  "question-subtype": "ask_attribute_in_synset_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "The sole material in 5th image is leather", 
+   "nlg": "The sole material in 5th image is leather"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "ask_attribute", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Is the material plastic in the 2nd image, what do you think?"
+  }, 
+  "question-subtype": "is_attribute_in_synset_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "No. The material in the 2nd image is leather and lining", 
+   "nlg": "No. The material in the 2nd image is leather and lining"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "repeat-question", 
+  "question-type": "ask_attribute", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "And what about for 1st image"
+  }, 
+  "question-subtype": "is_attribute_in_synset_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "Yes.", 
+   "nlg": "Yes."
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "celebrity", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Does celebrity cel_779 wear the kind of high tops in the 2nd image?"
+  }, 
+  "question-subtype": "does_celebrity_endorse_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "No.", 
+   "nlg": "No."
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "repeat-question", 
+  "question-type": "celebrity", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "And what about celebrity cel_1 for the 5th?"
+  }, 
+  "question-subtype": "does_celebrity_endorse_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "No.", 
+   "nlg": "No."
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "go_with", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "What will make a good combination with the high tops in the 4th image?"
+  }, 
+  "question-subtype": "ask_what_will_go_with_synset_in_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "It can go well with lace fabrics, casual type, lace sole footwear", 
+   "nlg": "It can go well with lace fabrics, casual type, lace sole footwear"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "repeat-question", 
+  "question-type": "go_with", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "And what do you think, with the 4th one?"
+  }, 
+  "question-subtype": "ask_what_will_go_with_synset_in_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "It can go well with navy colour, navy,regular style, regular fitting chinos and with washed pattern, blue-dark colouring jeans", 
+   "nlg": "It can go well with navy colour, navy,regular style, regular fitting chinos and with washed pattern, blue-dark colouring jeans"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "suited_for", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "What care would be suited for high tops in 2nd, 1st and 5th images ?"
+  }, 
+  "question-subtype": "ask_what_is_ns_suited_for"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "The high tops in the 2nd,1st and 5th images will suit well for dry clean,coldwash,dryclean,regular,hand care", 
+   "nlg": "The high tops in the 2nd,1st and 5th images will suit well for dry clean,coldwash,dryclean,regular,hand care"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "repeat-question", 
+  "question-type": "suited_for", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "And for the 4th and 3rd images?"
+  }, 
+  "question-subtype": "ask_what_is_ns_suited_for"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "The high tops in the 4th and 3rd images will suit well for dry clean,cold wash,dryclean,regular,hand care", 
+   "nlg": "The high tops in the 4th and 3rd images will suit well for dry clean,cold wash,dryclean,regular,hand care"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "celebrity", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "What other apparels and accessories are usually endorsed by celebrity cel_1?"
+  }, 
+  "question-subtype": "what_other_synsets_endorsed_by_celebrity"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "sequin upper material running shoes and rubber-suede material driving shoes mostly", 
+   "nlg": "sequin upper material running shoes and rubber-suede material driving shoes mostly"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "show_similar_to", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Show me something like the one in 4th image"
+  }, 
+  "question-subtype": "show_similar_to_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/31qtIRpI6-L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/418qkvABH5L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41P48DFl9pL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51a05VijMNL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51FAbCWAGxL.jpg"
+   ], 
+   "false images": null, 
+   "false nlg": "Sorry could not find anything similar", 
+   "nlg": "The similar looking ones are"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "buy", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "I think the 2nd one is nice. I want to buy that"
+  }, 
+  "question-subtype": "buy_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "Sure. Thats a great choice", 
+   "nlg": "Sure. Thats a great choice"
+  }
+ }
+]
