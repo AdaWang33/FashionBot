@@ -1,7 +1,7 @@
 [fashion_data]
-LIST_ATTR_CLOTH_PATH = /Users/yaofeiwang/Downloads/two/EECE7398 Advances in Deep Learning/project/nmt-chatbot/demo/fashion_data/Anno/list_attr_cloth.txt
+LIST_ATTR_CLOTH_PATH = /Users/yaofeiwang/Downloads/two/EECE7398 Advances in Deep Learning/project/fashionBot/fashion_data/Anno/list_attr_cloth.txt
 
-LIST_ATTR_IMG_PATH = /Users/yaofeiwang/Downloads/two/EECE7398 Advances in Deep Learning/project/nmt-chatbot/demo/fashion_data/Anno/list_attr_img.txt
+LIST_ATTR_IMG_PATH = /Users/yaofeiwang/Downloads/two/EECE7398 Advances in Deep Learning/project/fashionBot/fashion_data/Anno/list_attr_img.txt
 
 
 [condition words]
