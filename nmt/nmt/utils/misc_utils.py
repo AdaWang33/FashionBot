@@ -28,12 +28,9 @@ import numpy as np
 import tensorflow as tf
 
 
-def parse_version(version):
-  return tuple(map(int, version.split(".")))
-
 def check_tensorflow_version():
-  min_tf_version = "1.4.0"
-  if parse_version(tf.__version__) < parse_version(min_tf_version):
+  min_tf_version = "1.0.0"
+  if tf.__version__ < min_tf_version:
     raise EnvironmentError("Tensorflow version must >= %s" % min_tf_version)
 
 
