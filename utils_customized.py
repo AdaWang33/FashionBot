@@ -27,38 +27,25 @@ def getAttributes(path = list_attr_cloth_path):
     return attributes_cloth
 
 def generateImage(keyword):
-    # returns:
-    # first image path with attribute of given keyword or None
-    
-    # find index of the given keyword
+   max_to_keep = 6
     fashion_attributes = getAttributes()
-    # print(len(fashion_attributes))
-    # print(fashion_attributes[0])
-    # print(fashion_attributes[-1])
     index = fashion_attributes.index(keyword)
-    
+
     # get image with its attributes info
     path = list_attr_img_path
+
     attributes_img = []
-    img_path = []
-    
+
     file = open(path, "r")
+
     lines = file.read().split('\n')
     for line in lines[2:]:
-        attr = line.split(' ')
-        attr = attr[1:] # remove image path
-        attr = list(filter(None, attr)) # get rid of empty elements
-        
-        attributes_img.append(attr)
-        img_path.append(attr[0])
-        
-    max_possibility = np.max(attributes_img[:][index])
-    # return image or None
-    if max_possibility == 1:
-        img_index = np.argmax(attributes_img[:][index])
-        return img_path[img_index]
-    else:
-        return None
+        attr = line.strip().split()
+        if (attr[index + 1] == '1'):
+            attributes_img.append(attr[0])
+        if (len(attributes_img) >= max_to_keep):
+            break
+
 
 def giveHint():
     print("Could you describe the style you're comfortable with?")
@@ -68,11 +55,20 @@ def noImage():
     
 def display(image):
     # display image here
-    
-    if image != None:
-        plt.figure()
-        plt.imshow(image) 
-        plt.show()  
+    img_path = 'fashion_data/'
+    # display image here
+    if len(image)!=0:
+      for i in range(len(image)):
+        path1 = img_path + image[i]
+        img = cv2.imread(path1)
+        img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+        title = 'predict img' + str(i + 1)
+        plt.subplot(2, 3, i + 1)
+        plt.imshow(img)
+        plt.title(title)
+        plt.xticks([])
+        plt.yticks([])
+      plt.show()
     else:
         noImage()
 
